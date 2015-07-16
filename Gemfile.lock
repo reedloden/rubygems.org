@@ -277,7 +277,7 @@ DEPENDENCIES
   gchartrb
   gravtastic
   high_voltage
-  highline
+  highline (~> 1.7)
   honeybadger (~> 2.1.0)
   jquery-rails
   jruby-openssl

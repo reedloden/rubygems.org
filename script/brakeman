@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Does not install the latest brakeman if already installed
+gem install brakeman --conservative
+ruby -rbrakeman -S rake -f lib/tasks/brakeman.rake brakeman
